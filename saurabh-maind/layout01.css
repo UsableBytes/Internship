@@ -1,0 +1,161 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+html{
+    background: #62889e5e;
+}
+
+body {
+    font-family: "Noto Sans CJK JP", sans-serif;
+    font-size: 16px;
+    margin: 0px auto;
+    width: 1024px;
+    line-height: 1;
+    background: url("./images/travelalone.jpg") no-repeat center;
+    color: #fff;
+    font-weight: bold;
+    background-size: 1024px;
+}
+header{
+    display: block;
+}
+
+.bg-circle{
+    opacity: 0.4;
+}
+nav {
+    float: right;
+    padding-top: 10px;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    list-style-type: none;
+    font-size: 14px;
+}
+
+#btn_signin{
+    border: 1px solid #fff;
+    border-radius: 3px;
+    background: none;
+    color: #fff;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+#btn_signup{
+    background-color: #f2bd3b;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #000;
+    border: 1px solid #f2bd3b;
+}
+
+.container{
+    text-align: center;
+    margin: 75px 0px 7px 0px;
+}
+.ctn-icon{
+    font-size: 4em;
+}
+.ctn-bg-circle{
+    color: #f2bd3b;
+}
+.ctn-flag{
+    color: #000;
+}
+.ctn-bg-icon{
+    height:96px;
+    width: 111px;
+    margin: 20px 0px;
+}
+.title{
+    font-size: 4em;  
+    margin-bottom: 25px;
+}
+.sub-title{
+    font-family: "URW Bookman L", serif;
+    font-size: 1.85em;
+    font-style: italic;
+    line-height: 1.4;
+    padding-bottom: 25px;
+}
+.btn-top-story{
+    border: 1px solid #fff;
+    border-radius: 4px;
+    color:#fff;
+    padding: 15px;
+    background: rgba(241, 237, 237, 0.2);
+    margin-right: 10px;
+}
+.btn-facebook{
+    border: 1px solid #2966b5;
+    border-radius: 4px;
+    background:#2966b5;
+    padding: 15px;
+    color: #fff;
+}
+.btn-action{
+    display: inline-block;
+    margin: 50px 45px 20px 0px;
+}
+.btn-action section:first-child{
+    float: left;
+    margin-right: 15px;
+    padding: 5px;
+    border-radius: 3px;
+    background: rgba(0,0,0,0.4);
+}
+.btn-action section:last-child{
+    float: right;
+    padding: 5px;
+    border-radius: 3px;
+}
+.btn-action section article:first-child{
+    float: left;
+    margin-right: 5px;
+    font-size: 11px;
+}
+.btn-action section article:last-child{
+    float: right;
+}
+.btn-action section article p {
+    font-size: 9px;
+    text-align: left;
+}
+
+.btn-action section:first-child article p:last-child, .btn-action section:last-child article p:first-child {
+    font-size: 14px;
+}
+.plane-circle {
+    color:#2966b5;
+}
+.apple-circle{
+    color:rgba(0,0,0,0.2);
+}
+.plane {
+    color:#fff;
+}
+footer{
+    text-align: center;
+    padding-bottom: 48px;
+}
